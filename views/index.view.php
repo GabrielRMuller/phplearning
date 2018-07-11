@@ -10,9 +10,31 @@
     
     <p id="demo"></p>
 
+   
+        <script>
+            var fruits = ["Banana", "Orange", "Apple", "Mango Bay"];
+            var flen = fruits.length
+
+            text = "<u>";
+            
+            for(i=0;i<flen;i++){
+
+                text += "<li>" +fruits[i]+ "</li>";
+
+            }
+
+            text +="</u>";
+            document.getElementById("demo").innerHTML = text;
+        </script>
+    
+    
+    </u>
     <script>
-        document.getElementById("demo").innerHTML = 5 + 6;
+        var fruits = ["Banana", "Orange", "Apple", "Mango"];
+        fruits.sort();
+
     </script>
+
 
     </form>
 <?php require 'partials/footer.php'; ?>
